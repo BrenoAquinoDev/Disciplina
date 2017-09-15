@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DisciplinaHeaderView" customModule="DisciplinasPreview" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="35"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4 - 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="np2-Bq-Dtj">
+                    <rect key="frame" x="314" y="6" width="45" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45" id="On1-r6-qg6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(H824) TEORIA DO AUDIO VISUAL II" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="839-Dx-XV3">
+                    <rect key="frame" x="16" y="6" width="279" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="279" id="RR3-tH-sAt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="np2-Bq-Dtj" secondAttribute="bottom" constant="8" id="1Zt-dG-Tf0"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="839-Dx-XV3" secondAttribute="bottom" constant="8" id="AaY-6Z-9ta"/>
+                <constraint firstItem="839-Dx-XV3" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="6" id="Mvg-5Y-N8s"/>
+                <constraint firstItem="839-Dx-XV3" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="QDA-dq-t55"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="np2-Bq-Dtj" secondAttribute="trailing" constant="16" id="Sla-gT-A1e"/>
+                <constraint firstItem="np2-Bq-Dtj" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="6" id="sVr-IS-KGt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="creditosDisciplinas" destination="np2-Bq-Dtj" id="Ba7-XP-pc7"/>
+                <outlet property="nomeDisciplina" destination="839-Dx-XV3" id="834-Fd-XIq"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

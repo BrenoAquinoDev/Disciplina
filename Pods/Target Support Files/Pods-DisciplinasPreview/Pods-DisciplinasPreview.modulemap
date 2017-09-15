@@ -1,0 +1,6 @@
+framework module Pods_DisciplinasPreview {
+  umbrella header "Pods-DisciplinasPreview-umbrella.h"
+
+  export *
+  module * { export * }
+}

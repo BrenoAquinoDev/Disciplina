@@ -1,0 +1,6 @@
+framework module Pods_DisciplinasPreviewUITests {
+  umbrella header "Pods-DisciplinasPreviewUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

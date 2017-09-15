@@ -1,0 +1,10 @@
+"Disciplina" = "disciplina.info";
+"Frequencia" = "disciplina.frequencia";
+"Aula" = "disciplina.aula";
+
+"Sistemas Inteligentes" = "disciplina.nome.sistemasInteligentes";
+"Teoria dos Grafos" = "disciplina.nome.teoriaDosGrafos";
+"Principios de Controle" = "disciplina.nome.principiosDeControle";
+"Calculo I" = "disciplina.nome.calculo1";
+"Redes de Computadores" = "disciplina.nome.redes";
+"Banco de Dados" = "disciplina.nome.bancoDeDados";
